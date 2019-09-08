@@ -1,9 +1,23 @@
+Status of the tutorial follow-up.
+
+This is the "Building the persistence layer with JPA2 and Bean Validation" branch working in Red Hat 8. See part III of the ticket-monster pdf document.
+
+Topics covered include:
+• RDBMS design using JPA entity beans
+• How to validate your entities using Bean Validation
+• How to populate test data
+
+You may run it as "Run on Server" (Jboss EAD). You are supposed to deploy h2-console.war first. Then you can check every table entry at http://localhost:8080/h2-console/
+See "Populating test data" at the end of Part III.
+
+------------------------------
 This is the Introduction & Get Started branch working on Red Hat 8. See part II of the ticket-monster tutorial. This is based on branch 3.x-develop on github.
 
 You may run it as "Run as a Server" (Jboss EAD) and see the page http://localhost:8080/ticket-monster/mobile.html. You are supposed to deploy h2-console.war first. See the Deployment section of the document.
 
 The pom.xml has been updated to be able to run the Arquillian test presented in this phase. Arquillian is introduced later in the tutorial. Set Maven->Select Maven Profile and then right click the test and select "Run as JUnit".
 
+Original README:
 -------------------------------
 # TicketMonster - a JBoss example
 

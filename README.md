@@ -1,6 +1,12 @@
 # ticket-monster
 My follow-up on jboss-developer ticket-monster
 
+We now have a working data model for the TicketMonster application.
+
+This is the "Building the Persistence layer with JPA2 and Bean Validation. See part III of the ticket-monster pdf document.
+
+---------------------------------
+
 This is the Introduction & Get Started branch working in Red Hat 8. See part II of the ticket-monster pdf document.
 
 On evolution, you may run it as "Run on Server" (Jboss EAD) and check the page http://localhost:8080/ticket-monster/mobile.html. You are supposed to deploy h2-console.war first. See the Deployment section of the document in that part.
