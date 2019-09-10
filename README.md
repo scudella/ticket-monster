@@ -1,6 +1,17 @@
 # ticket-monster
 My follow-up on jboss-developer ticket-monster
 
+We now need to define the services that implement the business logic of the application and expose them to the front-end.
+
+This is the "Building The Business Services With JAX-RS" branch working in Red Hat 8. See part IV of the ticket-monster pdf document.
+
+The "Building the Persistence layer with JPA2 and Bean Validation is in the branch data model. See part III of the ticket-monster pdf document.
+
+The Introduction & Get Started branch is in the branch intro. See part II of the ticket-monster pdf document.
+
+See the README under demo.
+
+---------------------------------
 We now have a working data model for the TicketMonster application.
 
 This is the "Building the Persistence layer with JPA2 and Bean Validation. See part III of the ticket-monster pdf document.

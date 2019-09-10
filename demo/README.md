@@ -1,5 +1,28 @@
 Status of the tutorial follow-up.
 
+This is the "Building The Business Services With JAX-RS" branch working in Red Hat 8. See part IV of the ticket-monster pdf document.
+
+We’ve just defined the domain model of the application and created its persistence layer. Now we need to define the services that implement the business logic of the application and expose them to the front-end. After reading this, you’ll understand how to design the business layer and what choices to make while developing it. Topics covered include:
+
+* Encapsulating business logic in services and integrating with the persistence tier
+* Using CDI for integrating individual services
+* Integration testing using Arquillian
+* Exposing RESTful services via JAX-RS
+
+You may run it as "Run on Server" (Jboss EAD). You are supposed to deploy h2-console.war first. Then you can check every table entry at http://localhost:8080/h2-console/
+
+You can test all Arquillian tests with maven:
+
+You may need to update the dates in the import.sql file.
+First, cd to the pom.xml directory, and 
+
+$ mvn clean test -Parq-wildfly-managed (the server needs to be down)
+or
+$ mvn clean test -Parq-wildfly-remote (you need to start the server first)
+
+or you can test them with eclipse.
+
+-----------------------------
 This is the "Building the persistence layer with JPA2 and Bean Validation" branch working in Red Hat 8. See part III of the ticket-monster pdf document.
 
 Topics covered include:
