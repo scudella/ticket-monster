@@ -1,6 +1,14 @@
 # ticket-monster
 My follow-up on jboss-developer ticket-monster
 
+This is the Building The User UI Using HTML5
+
+We’ve just implemented the business services of our application, and exposed them through RESTful endpoints. Now we need to implement a flexible user interface that can be easily used with both desktop and mobile clients.
+
+See the README under demo.
+
+------------------------------------
+
 We now need to define the services that implement the business logic of the application and expose them to the front-end.
 
 This is the "Building The Business Services With JAX-RS" branch working in Red Hat 8. See part IV of the ticket-monster pdf document.

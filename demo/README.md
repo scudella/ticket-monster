@@ -1,5 +1,19 @@
 Status of the tutorial follow-up.
 
+This is the Building The User UI Using HTML5
+
+We’ve just implemented the business services of our application, and exposed them through RESTful endpoints. Now we need to implement a flexible user interface that can be easily used with both desktop and mobile clients. Topics covered include:
+
+Creating single-page applications using HTML5, JavaScript and JSON
+
+Using JavaScript frameworks for invoking RESTful endpoints and manipulating page content
+
+Feature and device detection
+
+Implementing a version of the user interface that is optimized for mobile clients using JavaScript frameworks such as jQuery mobile and Angular.
+
+---------------------------------
+
 This is the "Building The Business Services With JAX-RS" branch working in Red Hat 8. See part IV of the ticket-monster pdf document.
 
 We’ve just defined the domain model of the application and created its persistence layer. Now we need to define the services that implement the business logic of the application and expose them to the front-end. After reading this, you’ll understand how to design the business layer and what choices to make while developing it. Topics covered include:
@@ -23,6 +37,7 @@ $ mvn clean test -Parq-wildfly-remote (you need to start the server first)
 or you can test them with eclipse.
 
 -----------------------------
+
 This is the "Building the persistence layer with JPA2 and Bean Validation" branch working in Red Hat 8. See part III of the ticket-monster pdf document.
 
 Topics covered include:
